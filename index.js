@@ -3,11 +3,11 @@ function colorToHex(color) {
   return hex.length === 1 ? '0' + hex : hex
 }
 
-export default function rgbToHex(red, green, blue) {
+export function rgbToHex(red, green, blue) {
   return `#${colorToHex(red) + colorToHex(green) + colorToHex(blue)}`
 }
 
-export default function hexToRgb(hex) {
+export function hexToRgb(hex) {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex)
   return result ? {
     r: parseInt(result[1], 16),
