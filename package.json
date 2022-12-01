@@ -1,0 +1,31 @@
+{
+  "name": "@isabellymonteiro/rgb-hex",
+  "version": "1.0.0",
+  "description": "Convert rgb color to hex and hex to rgb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabellymonteiro/rgb-hex.git"
+  },
+  "keywords": [
+    "rgb",
+		"hex",
+		"color",
+		"colour",
+		"convert",
+		"conversion",
+		"converter"
+  ],
+  "author": {
+		"name": "Isabelly Monteiro",
+		"email": "isabellymr7@gmail.com"
+	},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabellymonteiro/rgb-hex/issues"
+  },
+  "homepage": "https://github.com/isabellymonteiro/rgb-hex#readme"
+}
