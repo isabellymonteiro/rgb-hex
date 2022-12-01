@@ -13,7 +13,7 @@ $ npm install @isabellymonteiro/rgb-hex
 ### rgb to hex
 
 ```js
-import rgbToHex from 'rgb-hex'
+import { rgbToHex } from '@isabellymonteiro/rgb-hex'
 
 rgbToHex(0, 76, 153)
 // '#004c99'
@@ -23,7 +23,7 @@ rgbToHex(0, 76, 153)
 > It does not work for a shorthand hex triplet such as '#03F'.
 
 ```js
-import hexToRgb from 'rgb-hex'
+import { hexToRgb } from '@isabellymonteiro/rgb-hex'
 
 hexToRgb('004c99') // or hexToRgb('#004c99')
 // { r: 0, g: 76, b: 153 }
