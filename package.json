@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/isabellymonteiro/rgb-hex.git"
   },
+  "type": "module",
   "keywords": [
     "rgb",
     "hex",
