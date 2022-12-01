@@ -5,7 +5,7 @@ Convert rgb color to hex and hex to rgb
 ## Install
 
 ```
-$ npm install rgb-hex
+$ npm install @isabellymonteiro/rgb-hex
 ```
 
 ## Usage
